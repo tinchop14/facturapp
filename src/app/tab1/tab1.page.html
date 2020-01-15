@@ -15,102 +15,62 @@
   </ion-fab-button>
 </ion-fab>
 
+<ion-card>
+  <ion-card-header>
 
-  <ion-card >
+    <ion-card-subtitle>Servicios</ion-card-subtitle>
+  <ion-item>
+    <ion-icon name="flame" slot="start"></ion-icon>
+    <ion-card-title>METROGAS</ion-card-title>
+    <ion-button fill="outline" slot="end">Ver servicio</ion-button>
+  </ion-item>
+  </ion-card-header>
+  <ion-card-content>
+    Breve descripción del servicio...
+  </ion-card-content>
+</ion-card>
+<ion-card>
+  <ion-card-header>
+
+    <ion-card-subtitle>Servicios</ion-card-subtitle>
+  <ion-item>
+    <ion-icon name="water" slot="start"></ion-icon>
+    <ion-card-title>AYSA</ion-card-title>
+    <ion-button fill="outline" slot="end">Ver servicio</ion-button>
+  </ion-item>
+  </ion-card-header>
+  <ion-card-content>
+    Breve descripción del servicio...
+  </ion-card-content>
+</ion-card>
+<ion-card>
+  <ion-card-header>
+
+    <ion-card-subtitle>Servicios</ion-card-subtitle>
+  <ion-item>
+    <ion-icon name="call" slot="start"></ion-icon>
+    <ion-card-title>TELECOM</ion-card-title>
+    <ion-button fill="outline" slot="end">Ver servicio</ion-button>
+  </ion-item>
+  </ion-card-header>
+  <ion-card-content>
+    Breve descripción del servicio...
+  </ion-card-content>
+</ion-card>
+
+  <ion-card>
     <ion-card-header>
+
       <ion-card-subtitle>Servicios</ion-card-subtitle>
+    <ion-item>
+      <ion-icon name="outlet" slot="start"></ion-icon>
       <ion-card-title>EDENOR</ion-card-title>
+      <ion-button fill="outline" slot="end">Ver servicio</ion-button>
+    </ion-item>
     </ion-card-header>
-
     <ion-card-content>
       Breve descripción del servicio...
     </ion-card-content>
   </ion-card>
-
-  <ion-card>
-    <ion-card-header>
-      <ion-card-subtitle>Servicios</ion-card-subtitle>
-      <ion-card-title>AYSA</ion-card-title>
-    </ion-card-header>
-
-    <ion-card-content>
-      Breve descripción del servicio...
-    </ion-card-content>
-
-  </ion-card>
-  <ion-card>
-    <ion-card-header>
-      <ion-card-subtitle>Servicios</ion-card-subtitle>
-      <ion-card-title>METROGAS</ion-card-title>
-    </ion-card-header>
-
-    <ion-card-content>
-      Breve descripción del servicio...
-    </ion-card-content>
-
-  </ion-card>
-  <ion-card>
-    <ion-card-header>
-      <ion-card-subtitle>Servicios</ion-card-subtitle>
-      <ion-card-title>TELECOM</ion-card-title>
-    </ion-card-header>
-
-    <ion-card-content>
-      Breve descripción del servicio...
-    </ion-card-content>
-
-  </ion-card>
-  <ion-card>
-    <ion-card-header>
-      <ion-card-subtitle>Servicios</ion-card-subtitle>
-      <ion-card-title>FIBERTEL</ion-card-title>
-    </ion-card-header>
-
-    <ion-card-content>
-      Breve descripción del servicio...
-    </ion-card-content>
-  </ion-card>
-  <ion-card>
-    <ion-card-header>
-      <ion-card-subtitle>Servicios</ion-card-subtitle>
-      <ion-card-title>EXPENSAS</ion-card-title>
-    </ion-card-header>
-
-    <ion-card-content>
-      Breve descripción del servicio...
-    </ion-card-content>
-
-  </ion-card>
-
-  <ion-card>
-    <ion-card-header>
-      <ion-card-subtitle>Servicios</ion-card-subtitle>
-      <ion-card-title>ALQUILER</ion-card-title>
-    </ion-card-header>
-
-    <ion-card-content>
-      Breve descripción del servicio...
-    </ion-card-content>
-
-  </ion-card>
-
-  <ion-list>
-    <ion-reorder-group (ionItemReorder)="onRenderItems($event)" disabled="false">
-
-      <ion-item *ngFor="let item of listItems">
-        <ion-label>
-          {{item}}
-        </ion-label>
-        <ion-reorder></ion-reorder>
-      </ion-item>
-
-    </ion-reorder-group>
-  </ion-list>
-  <ion-list text-center>
-    <ion-button (click)="getList()">
-      Get Updated List
-    </ion-button>
-  </ion-list>
-
 
 </ion-content>
