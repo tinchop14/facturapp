@@ -14,6 +14,16 @@ const routes: Routes = [
             path: '',
             loadChildren: () =>
               import('../tab1/tab1.module').then(m => m.Tab1PageModule)
+          },
+          {
+            path: 'services',
+            children: [
+              {
+                path: '',
+                loadChildren: () =>
+                  import('../services/services.module').then(m => m.ServicesPageModule)
+              }
+            ]
           }
         ]
       },
@@ -37,6 +47,7 @@ const routes: Routes = [
           }
         ]
       },
+
       {
         path: '',
         redirectTo: '/tabs/tab1',
