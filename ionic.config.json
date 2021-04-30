@@ -1,5 +1,7 @@
 {
   "name": "facturapp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
